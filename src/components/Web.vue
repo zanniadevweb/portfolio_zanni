@@ -6,7 +6,7 @@
       <v-spacer></v-spacer>
       <v-card flat tile style="width:25%" >
           <v-img
-          src="/images/pic01.jpg"
+          src="../../public/images/pic01.jpg"
           tile
           width="100%"
           >
@@ -78,7 +78,7 @@
       <v-spacer></v-spacer>
       <v-card flat tile style="width:25%" >
           <v-img
-          src="/images/pic01.jpg"
+          src="../../public/images/pic01.jpg"
           tile
           width="100%"
           >
@@ -151,7 +151,7 @@
       <v-spacer></v-spacer>
       <v-card flat tile style="width:25%" >
           <v-img
-          src="/images/pic02.jpg"
+          src="../../public/images/pic02.jpg"
           tile
           width="100%"
           >
@@ -223,7 +223,7 @@
       <v-spacer></v-spacer>
       <v-card flat tile style="width:25%" >
           <v-img
-          src="/images/pic03.jpg"
+          src="../../public/images/pic03.jpg"
           tile
           width="100%"
           >
@@ -294,7 +294,7 @@
       <v-spacer></v-spacer>
       <v-card flat tile style="width:25%" >
           <v-img
-          src="/images/pic04.jpg"
+          src="../../public/images/pic04.jpg"
           tile
           width="100%"
           >

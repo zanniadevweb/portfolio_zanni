@@ -27,53 +27,41 @@
         >
           <v-row justify="center">
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://github.com/zanniadevweb/plantGO_official">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-account-group
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;COO (UML)
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://trello.com/b/Kp12eugz/projet-tutor%C3%A9-s2-plantgo">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-git
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Git
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-draw
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Maquettage UX/UI
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-trello
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Gestion de Projet
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
           </v-row>
         </v-col>
@@ -94,41 +82,32 @@
         >
           <v-row justify="center">
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://github.com/zanniadevweb/plantGO_official">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-github
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;HTML5/CSS3
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-format-font
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Suite Microsoft
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-vector-difference-ab
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Figma
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
           </v-row>
         </v-col>
@@ -142,41 +121,32 @@
         >
           <v-row justify="center">
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://github.com/zanniadevweb/plantGO_official">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-adobe
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Adobe Illustrator / Photoshop
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-wordpress
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;WordPress
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-google-maps
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;ArcGIS / QGIS
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
           </v-row>
         </v-col>
@@ -197,53 +167,41 @@
         >
           <v-row justify="center">
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://github.com/zanniadevweb/plantGO_official">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-database
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;MySQL, IndexedDB
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://trello.com/b/Kp12eugz/projet-tutor%C3%A9-s2-plantgo">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-android
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;POO : Java, C++
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-web
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Javascript (Vue.js), PHP (Symfony)
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-linux
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Linux, Bash
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
           </v-row>
         </v-col>
@@ -264,53 +222,41 @@
         >
           <v-row justify="center">
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://github.com/zanniadevweb/plantGO_official">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-account-multiple-plus
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Travail en équipe
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://trello.com/b/Kp12eugz/projet-tutor%C3%A9-s2-plantgo">
+            <span>
               <v-btn rounded small elevation="2" fab color="indigo">
                 <v-icon color="white">
                   mdi-emoticon
                 </v-icon>
               </v-btn>
-              <a
-              >
                 &nbsp;Optimisme
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-glasses
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Consciencieux
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
-              <v-btn rounded small elevation="2" fab color="indigo">
+            <span>
+              <v-avatar color="indigo">
                 <v-icon color="white">
                   mdi-graph
                 </v-icon>
-              </v-btn>
-              <a
-              >
+              </v-avatar>
                 &nbsp;Sérieux et organisé
-              </a>
-            </v-btn>
+            </span>
               <v-spacer></v-spacer>
           </v-row>
         </v-col>

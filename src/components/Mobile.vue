@@ -6,7 +6,7 @@
           <v-spacer></v-spacer>
           <v-card flat tile style="width:25%" >
               <v-img
-              src="/images/pic05.jpg"
+              src="../../public/images/pic05.jpg"
               tile
               width="100%"
               >

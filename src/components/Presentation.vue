@@ -2,7 +2,7 @@
   <v-container id='Presentation'>
   <v-card class="mx-auto">
     <v-img
-    src="/images/banner.jpg"
+    src="../../public/images/banner.jpg"
     tile
     width="100%"
     >
