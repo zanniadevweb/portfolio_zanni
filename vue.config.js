@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/portfolio_repo/',
+  publicPath: '/portfolio_zanni/',
 
   transpileDependencies: [
     'vuetify'

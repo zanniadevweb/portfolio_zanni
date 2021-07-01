@@ -1,6 +1,12 @@
 <template>
   <v-container id='Presentation'>
   <v-card class="mx-auto">
+    <v-img
+    src="/images/banner.jpg"
+    tile
+    width="100%"
+    >
+    </v-img>
     <v-card flat tile class="mx-auto" style="width:1100px">
     <br><br>
       <v-card-text style="font-size: 1.1em;line-height: 3em">
@@ -21,9 +27,9 @@
         <v-card flat tile class="mx-auto" style="width:1100px">
         <v-card-text style="font-size: 1.3em;line-height: 1.7em">
           <p class="font-weight-regular" align="justify">
-            <b>Bientôt diplômé d'un DUT Informatique, je suis en recherche d’un emploi pour début juillet 2021</b>.
+            <b>Diplômé d'un DUT Informatique, je suis en recherche d’un emploi pour début juillet 2021</b>.
             <br><br>
-            Dans le cadre d'un stage de fin d'études, je suis chargé du développement d'une application hybride
+            Dans le cadre d'un stage de fin d'études, j'ai été chargé du développement d'une application hybride
             Android (tablette) et Desktop. Celle-ci est responsive, orientée utilisateur et elle est conçue à l'aide des
             <b>frameworks Javascript Vue.js et de Web Design Vuetify</b>.
             <br><br>

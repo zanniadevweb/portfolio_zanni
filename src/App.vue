@@ -31,7 +31,7 @@
           <v-avatar size="128" v-if="!mini">
             <img
               src="/images/photo_avatar.jpg"
-              alt="John"
+              alt="photo_alexandre_zanni"
               tile
             >
         </v-avatar>
