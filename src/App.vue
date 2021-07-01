@@ -30,7 +30,7 @@
         <v-list-item-content>
           <v-avatar size="128" v-if="!mini">
             <img
-              src="@/images/photo_avatar.jpg"
+              src="/images/photo_avatar.jpg"
               alt="John"
               tile
             >

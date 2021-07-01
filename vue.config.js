@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/statique_vuejs_test/',
+  publicPath: '/portfolio_repo/',
 
   transpileDependencies: [
     'vuetify'
