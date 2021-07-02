@@ -1,12 +1,7 @@
 <template>
   <v-container id='Presentation'>
   <v-card class="mx-auto">
-    <v-img
-    src="../../public/images/banner.jpg"
-    tile
-    width="100%"
-    >
-    </v-img>
+    <v-img src="../../public/images/banner.jpg" tile width="100%"></v-img>
     <v-card flat tile class="mx-auto" style="width:1100px">
     <br><br>
       <v-card-text style="font-size: 1.1em;line-height: 3em">
