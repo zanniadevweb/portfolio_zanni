@@ -4,7 +4,7 @@
     <v-row align="center" justify="center" dense>
       <v-spacer></v-spacer>
       <v-card flat tile style="width:25%" >
-        <v-img src="../../public/images/pic01.jpg" tile width="100%"></v-img>
+        <v-img src="../../public/images/pic00.jpg" tile width="100%"></v-img>
       </v-card>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
@@ -16,8 +16,8 @@
         </v-card-title>
         <v-card color="blue lighten-5">
           <v-card-title>
-            <v-btn text href="https://zanni-alexandre.com/shop/">
-            <h3 style="font-size: 1.4em;">Vue.js site e-commerce factice (juin 2021)&nbsp;</h3>
+            <v-btn text href="https://zanniadevweb.github.io/ecommerce_vuejs/">
+            <h3 style="font-size: 1.4em;">Vue.js E-commerce factice (juillet 2021 -- )&nbsp;</h3>
             <v-icon color="indigo"> mdi-open-in-new</v-icon>
             </v-btn>
           </v-card-title>
@@ -27,12 +27,13 @@
             <v-card flat tile class="mx-auto" style="width:1100px">
               <v-card-text style="font-size: 1.3em;line-height: 1.7em">
                 <p class="font-weight-regular" align="justify">
-                  <b><i>Contexte</i></b> : ????
+                  <b><i>Contexte</i></b> : Ce projet personnel a pour objectif d'être une démonstration de mes connaissances du framework Vue.js via la création (en cours) d'un site e-commerce factice.
+                  Pour l'instant, il permet d'ajouter des articles dans différentes catégories (boissons, fromages...) afin de les afficher en vitrine du site. Il est ensuite possible d'accéder aux articles créés afin de les éditer ou de les supprimer.
                   <br><br>
                     <ul>
                       <li><b><i>Technologie</i></b> : Vue.js, Vuetify.
                       </li>
-                      <li><b><i>Plugins</i></b> : ???</li>
+                      <li><b><i>Plugins</i></b> Vue Router, Dexie.js (IndexedDB)</li>
                       <li><b><i>Hébergement</i></b> : GitHub Pages.</li>
                     </ul>
                   <br><br>
@@ -64,7 +65,7 @@
         <v-card color="blue lighten-5">
           <v-card-title>
             <v-btn text href="https://zannial.github.io/Portfolio-ZANNI_Alexandre/">
-            <h3 style="font-size: 1.4em;">WordPress site e-commerce factice (juillet - août 2020)&nbsp;</h3>
+            <h3 style="font-size: 1.4em;">WordPress E-commerce factice (juillet - août 2020)&nbsp;</h3>
             <v-icon color="indigo">mdi-open-in-new</v-icon>
             </v-btn>
           </v-card-title>
@@ -125,7 +126,7 @@
                     <b><i>Contexte</i></b> : Ces fiches s'adressent aux étudiants en DUT Informatique souhaitant revoir les notions importantes évoquées en cours. Les cours en 1<sup>ère</sup> année de "Graphes et Langages", "Architecture des Réseaux" et "Administration et programmation des bases de données" ont fait l'objet d'un développement détaillé. Les autres pages figurent pour le moment uniquement des liens utiles.
                     <br><br>
                       <ul>
-                        <li><b><i>Technologie</i></b> : WordPress.
+                        <li><b><i>Technologie</i></b> : HTML5/CSS3, Javascript.
                         </li>
                         <li><b><i>Hébergement</i></b> : GitHub Pages.</li>
                       </ul>
