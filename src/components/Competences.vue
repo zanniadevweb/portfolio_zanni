@@ -2,7 +2,7 @@
   <v-container id='Competences'>
     <v-card class="mx-auto">
       <v-row align="center" justify="center" dense>
-        <v-card flat tile class="mx-auto" style="width:1100px">
+        <v-card flat tile class="mx-auto" :width="largueurElementsDesktop">
         <br><br>
           <v-card-title>
             <h2 class="subheading font-weight-bold mb-2">Compétences&nbsp;</h2>
@@ -204,3 +204,32 @@
     </v-card>
   </v-container>
 </template>
+
+<script>
+export default {
+
+  data: () => ({
+    mobile: false,
+  }),
+
+  created () {
+    // Si le format est trop étroit (ex: mobile), basculer le mode d'affichage du menu latéral
+    if (this.$vuetify.breakpoint.mobile) {
+      this.mobile = true
+    } else {
+      this.mobile = false
+    }
+  },
+
+  computed: {
+    largueurElementsDesktop() {
+      if (this.mobile) {
+        return '100%'
+      }
+      else {
+        return '60%'
+      }
+    },
+  }
+};
+</script>

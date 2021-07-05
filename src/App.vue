@@ -138,6 +138,15 @@ export default {
     texte: 'zannialexandre245@gmail.com'
   }),
 
+  created () {
+    // Si le format est trop étroit (ex: mobile), basculer le mode d'affichage du menu latéral
+    if (this.$vuetify.breakpoint.mobile) {
+      this.mini = true
+    } else {
+      this.mini = false
+    }
+  },
+
   computed: {
     tailleAvatar() {
       return 30;

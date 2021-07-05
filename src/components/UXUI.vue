@@ -1,7 +1,7 @@
 <template>
   <v-container id='UXUI'>
     <v-card>
-      <div class="mx-auto" style="width:1100px">
+      <div class="mx-auto">
         <v-spacer></v-spacer>
         <v-card flat tile>
           <br><br>

@@ -3,12 +3,12 @@
         <v-card class="mx-auto">
           <v-row align="center" justify="center" dense>
             <v-spacer></v-spacer>
-              <v-card flat tile style="width:25%" >
+              <v-card flat tile :width="largueurImageDesktop" >
                   <v-img src="../../public/images/pic05.jpg" tile width="100%"></v-img>
               </v-card>
               <v-spacer></v-spacer>
               <v-spacer></v-spacer>
-              <v-card flat tile class="mx-auto" style="width:60%" >
+              <v-card flat tile class="mx-auto" :width="largueurTexteDesktop" >
                 <br><br>
                 <v-card-title>
                   <h2 class="subheading font-weight-bold mb-2">Mobile&nbsp;</h2>
@@ -21,7 +21,7 @@
                 </v-card>
                 <v-row class="text-center">
                   <v-col class="mb-5" cols="12">
-                    <v-card flat tile class="mx-auto" style="width:1100px">
+                    <v-card flat tile class="mx-auto">
                       <v-card-text style="font-size: 1.3em;line-height: 1.7em">
                         <p class="font-weight-regular" align="justify">
                           <b><i>Contexte</i></b> : Application mobile ludique Android qui vise à apporter des connaissances encyclopédiques par la collection de cartes de plantes,
@@ -85,3 +85,41 @@
         </v-card>
   </v-container>
 </template>
+
+<script>
+export default {
+
+  data: () => ({
+    mobile: false,
+  }),
+
+  created () {
+    // Si le format est trop étroit (ex: mobile), basculer le mode d'affichage du menu latéral
+    if (this.$vuetify.breakpoint.mobile) {
+      this.mobile = true
+    } else {
+      this.mobile = false
+    }
+  },
+
+  computed: {
+    largueurImageDesktop() {
+      if (this.mobile) {
+        return '100%'
+      }
+      else {
+        return '25%'
+      }
+    },
+
+    largueurTexteDesktop() {
+      if (this.mobile) {
+        return '100%'
+      }
+      else {
+        return '60%'
+      }
+    },
+  }
+};
+</script>

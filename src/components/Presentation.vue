@@ -2,24 +2,23 @@
   <v-container id='Presentation'>
   <v-card class="mx-auto">
     <v-img src="../../public/images/banner.jpg" tile width="100%"></v-img>
-    <v-card flat tile class="mx-auto" style="width:1100px">
+    <v-card flat tile class="mx-auto" :width="largueurElementsDesktop">
     <br><br>
-      <v-card-text style="font-size: 1.1em;line-height: 3em">
-        <h1 class="subheading font-weight-bold mb-2 indigo--text">
-          Alexandre ZANNI
-        </h1>
-        <h2 class="subheading font-weight-regular mb-2">
-          Portfolio - Développeur Web Vue.js
-        </h2>
-      </v-card-text>
-
       <v-row class="text-center">
         <v-col
           class="mb-5"
           cols="12"
         >
+        <v-card-text style="font-size: 1.1em;line-height: 3em">
+          <h1 class="subheading font-weight-bold mb-2 indigo--text">
+            Alexandre ZANNI
+          </h1>
+          <h2 class="subheading font-weight-regular mb-2">
+            Portfolio - Développeur Web Vue.js
+          </h2>
+        </v-card-text>
 
-        <v-card flat tile class="mx-auto" style="width:1100px">
+        <v-card flat tile class="mx-auto" :width="largueurElementsDesktop">
         <v-card-text style="font-size: 1.3em;line-height: 1.7em">
           <p class="font-weight-regular" align="justify">
             <b>Diplômé d'un DUT Informatique, je suis en recherche d’un emploi pour début juillet 2021</b>.
@@ -42,3 +41,32 @@
   </v-card>
   </v-container>
 </template>
+
+<script>
+export default {
+
+  data: () => ({
+    mobile: false,
+  }),
+
+  created () {
+    // Si le format est trop étroit (ex: mobile), basculer le mode d'affichage du menu latéral
+    if (this.$vuetify.breakpoint.mobile) {
+      this.mobile = true
+    } else {
+      this.mobile = false
+    }
+  },
+
+  computed: {
+    largueurElementsDesktop() {
+      if (this.mobile) {
+        return '100%'
+      }
+      else {
+        return '60%'
+      }
+    },
+  }
+};
+</script>

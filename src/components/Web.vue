@@ -3,12 +3,12 @@
     <v-card class="mx-auto">
     <v-row align="center" justify="center" dense>
       <v-spacer></v-spacer>
-      <v-card flat tile style="width:25%" >
+      <v-card flat tile :width="largueurImageDesktop" >
         <v-img src="../../public/images/pic00.jpg" tile width="100%"></v-img>
       </v-card>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
-      <v-card flat tile class="mx-auto" style="width:60%" >
+      <v-card flat tile class="mx-auto" :width="largueurTexteDesktop" >
       <br><br>
         <v-card-title>
           <h2 class="subheading font-weight-bold mb-2">Web (1)&nbsp;</h2>
@@ -24,7 +24,7 @@
         </v-card>
         <v-row class="text-center">
           <v-col class="mb-5" cols="12">
-            <v-card flat tile class="mx-auto" style="width:1100px">
+            <v-card flat tile class="mx-auto">
               <v-card-text style="font-size: 1.3em;line-height: 1.7em">
                 <p class="font-weight-regular" align="justify">
                   <b><i>Contexte</i></b> : Ce projet personnel a pour objectif d'être une démonstration de mes connaissances du framework Vue.js via la création (en cours) d'un site e-commerce factice.
@@ -51,12 +51,12 @@
     <v-card class="mx-auto">
     <v-row align="center" justify="center" dense>
       <v-spacer></v-spacer>
-      <v-card flat tile style="width:25%" >
+      <v-card flat tile :width="largueurImageDesktop" >
           <v-img src="../../public/images/pic01.jpg" tile width="100%"></v-img>
       </v-card>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
-      <v-card flat tile class="mx-auto" style="width:60%" >
+      <v-card flat tile class="mx-auto" :width="largueurTexteDesktop" >
       <br><br>
         <v-card-title>
           <h2 class="subheading font-weight-bold mb-2">Web (2)&nbsp;</h2>
@@ -72,7 +72,7 @@
         </v-card>
         <v-row class="text-center">
           <v-col class="mb-5" cols="12">
-            <v-card flat tile class="mx-auto" style="width:1100px">
+            <v-card flat tile class="mx-auto">
               <v-card-text style="font-size: 1.3em;line-height: 1.7em">
                 <p class="font-weight-regular" align="justify">
                   <b><i>Contexte</i></b> : Ce site internet a pour objectif d'illustrer ma connaissance du fonctionnement de WordPress et en particulier du plugin WooCommerce.
@@ -99,12 +99,12 @@
     <v-card class="mx-auto">
       <v-row align="center" justify="center" dense>
         <v-spacer></v-spacer>
-        <v-card flat tile style="width:25%" >
+        <v-card flat tile :width="largueurImageDesktop" >
             <v-img src="../../public/images/pic02.jpg" tile width="100%"></v-img>
         </v-card>
         <v-spacer></v-spacer>
         <v-spacer></v-spacer>
-        <v-card flat tile class="mx-auto" style="width:60%" >
+        <v-card flat tile class="mx-auto" :width="largueurTexteDesktop" >
         <br><br>
           <v-card-title>
             <h2 class="subheading font-weight-bold mb-2">Web (3)&nbsp;</h2>
@@ -120,7 +120,7 @@
           </v-card>
           <v-row class="text-center">
             <v-col class="mb-5" cols="12">
-              <v-card flat tile class="mx-auto" style="width:1100px">
+              <v-card flat tile class="mx-auto">
                 <v-card-text style="font-size: 1.3em;line-height: 1.7em">
                   <p class="font-weight-regular" align="justify">
                     <b><i>Contexte</i></b> : Ces fiches s'adressent aux étudiants en DUT Informatique souhaitant revoir les notions importantes évoquées en cours. Les cours en 1<sup>ère</sup> année de "Graphes et Langages", "Architecture des Réseaux" et "Administration et programmation des bases de données" ont fait l'objet d'un développement détaillé. Les autres pages figurent pour le moment uniquement des liens utiles.
@@ -145,12 +145,12 @@
     <v-card class="mx-auto">
     <v-row align="center" justify="center" dense>
       <v-spacer></v-spacer>
-      <v-card flat tile style="width:25%" >
+      <v-card flat tile :width="largueurImageDesktop" >
           <v-img src="../../public/images/pic03.jpg" tile width="100%"></v-img>
       </v-card>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
-      <v-card flat tile class="mx-auto" style="width:60%" >
+      <v-card flat tile class="mx-auto" :width="largueurTexteDesktop" >
       <br><br>
         <v-card-title>
           <h2 class="subheading font-weight-bold mb-2">Web (4)&nbsp;</h2>
@@ -166,7 +166,7 @@
         </v-card>
         <v-row class="text-center">
          <v-col class="mb-5" cols="12">
-          <v-card flat tile class="mx-auto" style="width:1100px">
+          <v-card flat tile class="mx-auto">
             <v-card-text style="font-size: 1.3em;line-height: 1.7em">
               <p class="font-weight-regular" align="justify">
                 <b><i>Contexte</i></b> : Ce site internet a été réalisé dans le cadre d'un cours (2<sup>ème</sup> semestre) en DUT Informatique. Il illustre le mode de fonctionnement des outils de gestion de projet Trello et Bubblz.
@@ -191,12 +191,12 @@
     <v-card class="mx-auto">
     <v-row align="center" justify="center" dense>
       <v-spacer></v-spacer>
-      <v-card flat tile style="width:25%" >
+      <v-card flat tile :width="largueurImageDesktop" >
           <v-img src="../../public/images/pic04.jpg" tile width="100%"></v-img>
       </v-card>
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
-      <v-card flat tile class="mx-auto" style="width:60%" >
+      <v-card flat tile class="mx-auto" :width="largueurTexteDesktop" >
       <br><br>
         <v-card-title>
           <h2 class="subheading font-weight-bold mb-2">Web (5)&nbsp;</h2>
@@ -212,7 +212,7 @@
         </v-card>
           <v-row class="text-center">
             <v-col class="mb-5" cols="12">
-              <v-card flat tile class="mx-auto" style="width:1100px">
+              <v-card flat tile class="mx-auto">
                 <v-card-text style="font-size: 1.3em;line-height: 1.7em">
                   <p class="font-weight-regular" align="justify">
                     <b><i>Contexte</i></b> : Inclut une page d'accueil avec mes compétences en archéologie, une page de résumé de mon sujet de mémoire, une autre avec des cartes en lien avec ce sujet ainsi qu'une dernière avec un glossaire multilingue.
@@ -237,3 +237,41 @@
     </v-card>
   </v-container>
 </template>
+
+<script>
+export default {
+
+  data: () => ({
+    mobile: false,
+  }),
+
+  created () {
+    // Si le format est trop étroit (ex: mobile), basculer le mode d'affichage du menu latéral
+    if (this.$vuetify.breakpoint.mobile) {
+      this.mobile = true
+    } else {
+      this.mobile = false
+    }
+  },
+
+  computed: {
+    largueurImageDesktop() {
+      if (this.mobile) {
+        return '100%'
+      }
+      else {
+        return '25%'
+      }
+    },
+
+    largueurTexteDesktop() {
+      if (this.mobile) {
+        return '100%'
+      }
+      else {
+        return '60%'
+      }
+    },
+  }
+};
+</script>
