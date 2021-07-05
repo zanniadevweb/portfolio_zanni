@@ -64,7 +64,7 @@ export default {
         return '100%'
       }
       else {
-        return '60%'
+        return '75%'
       }
     },
   }
