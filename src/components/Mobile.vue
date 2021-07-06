@@ -53,21 +53,21 @@
                   </v-card>
                     <v-row justify="center">
                       <v-spacer></v-spacer>
-                      <v-btn text tile href="https://github.com/zanniadevweb/plantGO_official">
+                      <v-btn text tile href="https://github.com/zanniadevweb/plantGO_official" target="_blank">
                         <v-btn rounded small elevation="2" fab color="indigo">
                           <v-icon color="white">mdi-github</v-icon>
                         </v-btn>
                         <a>&nbsp;GitHub</a>
                       </v-btn>
                       <v-spacer></v-spacer>
-                      <v-btn text tile href="https://trello.com/b/Kp12eugz/projet-tutor%C3%A9-s2-plantgo">
+                      <v-btn text tile href="https://trello.com/b/Kp12eugz/projet-tutor%C3%A9-s2-plantgo" target="_blank">
                         <v-btn rounded small elevation="2" fab color="indigo">
                           <v-icon color="white">mdi-trello</v-icon>
                         </v-btn>
                         <a>&nbsp;Trello</a>
                       </v-btn>
                       <v-spacer></v-spacer>
-                      <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es">
+                      <v-btn text tile href="https://www.youtube.com/watch?v=JSq6NyNP-es" target="_blank">
                         <v-btn rounded small elevation="2" fab color="indigo">
                           <v-icon color="white">mdi-youtube</v-icon>
                         </v-btn>

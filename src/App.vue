@@ -87,13 +87,13 @@
               </v-btn>
             </v-btn>
             <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.linkedin.com/in/alexandre-zanni-232884187">
+            <v-btn text tile href="https://www.linkedin.com/in/alexandre-zanni-232884187" target="_blank">
               <v-btn rounded small elevation="2" fab color="indigo">Linkedin
                 <v-icon color="white">mdi-linkedin</v-icon>
               </v-btn>
             </v-btn>
               <v-spacer></v-spacer>
-            <v-btn text tile href="https://www.instagram.com/archaeology_in_sicily/">
+            <v-btn text tile href="https://www.instagram.com/archaeology_in_sicily/" target="_blank">
               <v-btn rounded small elevation="2" fab color="indigo">Instagram
                 <v-icon color="white">mdi-instagram</v-icon>
               </v-btn>

@@ -16,7 +16,7 @@
         </v-card-title>
         <v-card color="blue lighten-5">
           <v-card-title>
-            <v-btn text href="https://zanniadevweb.github.io/ecommerce_vuejs/">
+            <v-btn text href="https://zanniadevweb.github.io/ecommerce_vuejs/" target="_blank">
             <h3 style="font-size: 1.4em;">Vue.js E-commerce factice (juillet 2021 -- )&nbsp;</h3>
             <v-icon color="indigo"> mdi-open-in-new</v-icon>
             </v-btn>
@@ -33,7 +33,7 @@
                     <ul>
                       <li><b><i>Technologie</i></b> : Vue.js, Vuetify.
                       </li>
-                      <li><b><i>Plugins</i></b> Vue Router, Dexie.js (IndexedDB)</li>
+                      <li><b><i>Plugins</i></b> Vue Router, Dexie.js (IndexedDB), Vuex</li>
                       <li><b><i>Hébergement</i></b> : GitHub Pages.</li>
                     </ul>
                   <br><br>
@@ -64,7 +64,7 @@
         </v-card-title>
         <v-card color="blue lighten-5">
           <v-card-title>
-            <v-btn text href="https://zannial.github.io/Portfolio-ZANNI_Alexandre/">
+            <v-btn text href="https://zanni-alexandre.com/shop/" target="_blank">
             <h3 style="font-size: 1.4em;">WordPress E-commerce factice (juillet - août 2020)&nbsp;</h3>
             <v-icon color="indigo">mdi-open-in-new</v-icon>
             </v-btn>
@@ -112,7 +112,7 @@
           </v-card-title>
           <v-card color="blue lighten-5">
             <v-card-title>
-              <v-btn text href="https://blobboxo.github.io/Cours_DUT_Informatique/index.html">
+              <v-btn text href="https://blobboxo.github.io/Cours_DUT_Informatique/index.html" target="_blank">
               <h3 style="font-size: 1.4em;">Fiches de cours - DUT Informatique (avril - juin 2020)&nbsp;</h3>
               <v-icon color="indigo">mdi-open-in-new</v-icon>
               </v-btn>
@@ -158,7 +158,7 @@
         </v-card-title>
         <v-card color="blue lighten-5">
           <v-card-title>
-            <v-btn text href="https://blobox.github.io/Tutoriel_Trello_Bubblz/">
+            <v-btn text href="https://blobox.github.io/Tutoriel_Trello_Bubblz/" target="_blank">
             <h3 style="font-size: 1.4em;">Tutoriels Trello et Bubblz (2 – 15 Mars 2020 )&nbsp;</h3>
             <v-icon color="indigo">mdi-open-in-new</v-icon>
             </v-btn>
@@ -204,7 +204,7 @@
         </v-card-title>
         <v-card color="blue lighten-5">
           <v-card-title>
-            <v-btn text href="https://bloboxo.github.io/Alexandre_ZANNI/">
+            <v-btn text href="https://bloboxo.github.io/Alexandre_ZANNI/" target="_blank">
             <h3 style="font-size: 1.4em;">CV académique - formation en Archéologie (janvier - mars 2020)&nbsp;</h3>
             <v-icon color="indigo">mdi-open-in-new</v-icon>
             </v-btn>
