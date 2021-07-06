@@ -6,7 +6,7 @@
       <v-app-bar-nav-icon @click.stop="mini = !mini"></v-app-bar-nav-icon>
     </v-app-bar>
     <v-navigation-drawer v-model="drawer" dark permanent app right :mini-variant="mini" src="https://cdn.vuetifyjs.com/images/backgrounds/bg-2.jpg">
-    <v-card class="mx-auto" max-width="434" tile>
+    <v-card tile>
     <v-img v-if="!mini" height="100%" src="https://cdn.vuetifyjs.com/images/cards/server-room.jpg">
     <v-col class="py-0">
       <v-list-item-content>
@@ -74,12 +74,12 @@
       <UXUI/>
     </v-main>
     <v-bottom-navigation color="grey darken-4" dark id='Contact'>
-        <span class="font-weight-bold white--text mt-4">
+        <span class="font-weight-bold white--text mt-4 mr-2">
           zannialexandre245@gmail.com&nbsp;
           <v-icon>mdi-email</v-icon>
         </span>
-        <span>
-          <v-row justify="center" class="ml-5 mt-3">
+        <span class="mt-6">
+          <v-row justify="center">
             <v-spacer></v-spacer>
             <v-btn text tile href="mailto:zannialexandre245@gmail.com">
               <v-btn rounded small elevation="2" fab color="indigo">Mail
@@ -171,3 +171,9 @@ export default {
   }
 };
 </script>
+
+<style>
+  html,body{
+      overflow-x: hidden;
+  }
+</style>

@@ -6,7 +6,7 @@
         <br><br>
           <v-card-title>
             <h2 class="subheading font-weight-bold mb-2">Compétences&nbsp;</h2>
-            <v-icon color="black">  mdi-account-cog</v-icon>
+            <v-icon color="black">mdi-account-cog</v-icon>
           </v-card-title>
           <v-card-title>
             <h3 class="subheading font-weight-bold mb-2">Fonctionnelles</h3>
@@ -39,7 +39,7 @@
                 <v-spacer></v-spacer>
                 <span>
                   <v-avatar color="indigo">
-                    <v-icon color="white"> mdi-trello</v-icon>
+                    <v-icon color="white">mdi-trello</v-icon>
                   </v-avatar>
                     &nbsp;Gestion de Projet
                 </span>
@@ -169,7 +169,7 @@
                 <v-spacer></v-spacer>
                 <span>
                   <v-avatar color="indigo">
-                    <v-icon color="white"> mdi-account-multiple-plus</v-icon>
+                    <v-icon color="white">mdi-account-multiple-plus</v-icon>
                   </v-avatar>
                     &nbsp;Travail en équipe
                 </span>
